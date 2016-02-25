@@ -4,9 +4,9 @@ public class Solution
     public static void main(String[] args) throws Exception
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); // keyboard input
-        String text = reader.readLine(); //variable for keyboard input
-        int year = Integer.parseInt(text); //conventor variable text (words) to year (numbers)
-        if (year%4==0 && year%100!=0 || year%400==0)// % - multiplicity
+        String text = reader.readLine(); //variable(переменные) for keyboard input(ввод с клавиатуры)
+        int year = Integer.parseInt(text); //conventor variable(переменные) text (words) to year (numbers)
+        if (year%4==0 && year%100!=0 || year%400==0)// % - multiplicity(кратность)
             System.out.println("days in year: 366");
         else
             System.out.println("days in year: 365);
