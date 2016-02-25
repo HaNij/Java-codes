@@ -1,0 +1,39 @@
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String numS1 = reader.readLine();//напишите тут ваш код
+        String numS2 = reader.readLine();//напишите тут ваш код
+        String numS3 = reader.readLine();
+        int num1 = Integer.parseInt(numS1);//напишите тут ваш код
+        int num2 = Integer.parseInt(numS2);//напишите тут ваш код
+        int num3 = Integer.parseInt(numS3);
+
+        checkNegative(num1,num2,num3);
+        checkPositive(num1,num2,num3);//напишите тут ваш код
+
+    }
+    public static void checkNegative(int a, int b, int c){
+        int i = 0;
+        if (a < 0)
+            i++;
+        if (b < 0)
+            i++;
+        if (c < 0)
+            i++;
+        System.out.println("количество отрицательных чисел: " + i);
+
+
+    }
+    public static void checkPositive(int a, int b, int c){
+        int i = 0;
+        if (a > 0)
+            i++;
+        if (b > 0)
+            i++;
+        if (c > 0)
+            i++;
+        System.out.println("количество положительных чисел: " + i);
+    }
+}
