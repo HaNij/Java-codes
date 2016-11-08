@@ -6,8 +6,6 @@ public class Solution
         String name1 = reader.readLine();
         String name2 = reader.readLine();
         checkName(name1,name2);
-        //напишите тут ваш код
-
     }
     public static void checkName(String name1,String name2){
         if (name1.equals(name2))                        //сравнивает строки(слова)
