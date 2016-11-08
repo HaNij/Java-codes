@@ -1,0 +1,12 @@
+/*
+
+Method. Generating random number between min and max
+
+*/
+public static int RandomNumberBetween(int min,int max) {
+		Random rand = new Random();
+		int randomNumber = rand.nextInt(max - min) + min;
+		if (randomNumber == min) {
+			return randomNumber + 1;
+		} else return randomNumber;
+	}
