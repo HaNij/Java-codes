@@ -1,0 +1,28 @@
+public class Encryption {
+
+    public static void main(String[] args) throws Exception
+    {
+        // BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        String input = "Hello world!";
+        String output = "";
+
+        char[] chars = new char[input.length()];
+
+        for (int i = 0; i < input.length(); i++) {
+            chars[i] = input.charAt(i);
+            switch(chars[i]) {
+                case 'H': output += "sldflsdwwesa"; break;
+                case 'e': output += "sdasethyrgdf"; break;
+                case 'l': output += "sadklasfkkrf"; break;
+                case 'o': output += "sad4e5t3w32e"; break;
+                case ' ': output += "64885erklgfs"; break;
+                case 'w': output += "e9r9er9fosfа"; break;
+                case 'r': output += "e55tjjkjkwej"; break;
+                case 'd': output += "q23e435wldas"; break;
+                case '!': output += "kdsfksdkfkk6"; break;
+            }
+        }
+        System.out.print(output);
+    }
+}
