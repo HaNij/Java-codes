@@ -1,0 +1,22 @@
+public class Decoder {
+    public static void main(String[] args) {
+        String output = "";
+        String input = "sldflsdwwesasdasethyrgdfsadklasfkkrfsadklasfkkrfsad4e5t3w32e64885erklgfse9r9er9fosfаsad4e5t3w32ee55tjjkjkwejsadklasfkkrfq23e435wldaskdsfksdkfkk6";
+        String[] split = input.split("(?<=\\G.{12})");
+
+        for (String s : split) {
+            switch (s) {
+                case "sldflsdwwesa": output += "H"; break;
+                case "sdasethyrgdf": output += "e"; break;
+                case "sadklasfkkrf": output += "l"; break;
+                case "sad4e5t3w32e": output += "o"; break;
+                case "64885erklgfs": output += " "; break;
+                case "e9r9er9fosfа": output += "w"; break;
+                case "e55tjjkjkwej": output += "r"; break;
+                case "q23e435wldas": output += "d"; break;
+                case "kdsfksdkfkk6": output += "!"; break;
+            }
+        }
+        System.out.print(output);
+    }
+}
