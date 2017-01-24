@@ -1,0 +1,14 @@
+Ctrl + W - выделение слова (повторное нажатие выделит соседнее)
+Сtrl + Y - удалит строку
+Ctrl + X - сохранит в буфер и удалит строку
+Ctrl + Home - перемещение в самый вверх
+Ctrl + End - перемещение в самый низ
+Сtrl + Shift + Home - с начала выделяет строку
+Сtrl + Shift + End -  c конца выделяет строку
+Alt + 1 - show/hide project display
+Alt + Right/Left - переход между классами
+Alt + Insert - генерация кода (геттеры, сеттеры и т.п)
+Ctrl + Shitf + F12 - скрыть все активные дисплеи
+Ctrl + Alt + S - keymap
+Shift + Shift - search everywhere
+Ctrl + Shift + Space - умное решение ошибки
